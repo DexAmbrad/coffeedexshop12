@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="../asssets/styles/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav class="navbar container">
+      <div>CAFEFOLIO</div>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main Content -->
+  <main>
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container services-container">
+        <div class="services-heading">
+          <h2>CAFEFOLIO</h2>
+          <p>Available Coffee.</p>
+        </div>               
+        </section>
+        <section id="services">
+        <div class="card-container">
+            <div class="card">
+              <!-- Card 1 -->
+                <img src="../asssets/image/Cappuccino-image.jpeg" class="card-img"./>
+                <div class="card-body">
+                    <h1 class="card-title">Cappuccino</h1>
+                    <p class="card-sub-title">COFFE</p>
+                    <p class="card-info">Equal parts espresso, steamed milk, and milk foam. Creamy and strong, with a light, airy texture on top</p>
+                    <button onclick="goToNextPage()"class="card-btn">₱56 Order</button>
+                  <script>
+                        function goToNextPage() {
+                          window.location.href = "../pages/order.html";
+                          }
+                  </script>
+                </div>
+              </div>
+              <div class="card">
+             <!--card 2-->
+             <img src="../asssets/image/Mocha.jpg" class="card-img"./>
+             <div class="card-body">
+                 <h1 class="card-title">Mocha</h1>
+                 <p class="card-sub-title">COFFE</p>
+                 <p class="card-info">A sweet blend of espresso, steamed milk, and chocolate syrup, usually topped with whipped cream.
+                 </p>
+                 <button onclick="goToNextPage()"class="card-btn">₱90 Order</button>
+             </div>
+            </div>
+             <div class="card">
+             <!--card 3-->
+             <img src="../asssets/image/Iced Coffee.jpg" class="card-img"./>
+                <div class="card-body">
+                    <h1 class="card-title">Iced</h1>
+                    <p class="card-sub-title">COFFE</p>
+                    <p class="card-info">Regular brewed coffee thats cooled down and served over ice. Lighter and more refreshing.</p>
+                    <button onclick="goToNextPage()"class="card-btn">₱56 Order</button>
+                </div>
+              </div>
+          </div>   
+        </section>
+        <section id="services">
+            <div class="card-container">
+                <div class="card">
+                  <!-- Card 4 -->
+                    <img src="../asssets/image/Espresso.jpg" class="card-img"./>
+                    <div class="card-body">
+                        <h1 class="card-title">Espresso</h1>
+                        <p class="card-sub-title">COFFE</p>
+                        <p class="card-info">A strong, concentrated shot of coffee made by forcing hot water through finely-ground beans. The base for many other coffee drinks.</p>
+                        <button onclick="goToNextPage()"class="card-btn">₱90 Order</button>
+                    </script>
+                    </div>
+                  </div>
+                  <div class="card">
+                 <!--card 5-->
+                 <img src="../asssets/image/americano.webp" class="card-img"./>
+                 <div class="card-body">
+                     <h1 class="card-title">americano</h1>
+                     <p class="card-sub-title">COFFE</p>
+                     <p class="card-info">A diluted espresso, espresso and hot water, giving it a similar strength to drip coffee but with a richer flavor.</p>
+                     <button onclick="goToNextPage()"class="card-btn"> ₱95 Order</button>
+                 </div>
+                </div>
+                 <div class="card">
+                 <!--card 6-->
+                 <img src="../asssets/image/Macchiato.jpg" class="card-img"./>
+                    <div class="card-body">
+                        <h1 class="card-title">macchiato</h1>
+                        <p class="card-sub-title">COFFE</p>
+                        <p class="card-info">An espresso, marked with a small amount of steamed milk or milk foam. Stronger than a latte.</p>
+                        <button onclick="goToNextPage()"class="card-btn"> ₱85 Order</button>                        
+                    </div>
+                  </div>
+              </div>      
+    
+            </section>
+      </main>
+    
+      <footer id="footer">
+        <p>© 2025 - Web Development. All rights reserved.</p>
+      </footer>
+    </body>
+    
+    </html>

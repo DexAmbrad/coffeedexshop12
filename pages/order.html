@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<header id="header">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Purchase Form</title>
+  <link rel="stylesheet" href="../asssets/styles/style.css" />
+    <nav class="navbar container">
+      <div>CAFEFOLIO</div>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About Us</a></li>
+        <li><a href="../pages/menu.html">Menu</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+ 
+</header>
+<body class="bodyy">
+    <div class="form-container">
+    <h2>Purchase Form</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="product">Select Product</label>
+        <select id="product" name="product" required>
+          <option value="">Select a product</option>
+          <option value="coffee">ICED COFFEE</option>
+          <option value="coffee">CAPPUCCINO COFFEE</option>
+          <option value="coffee">MOCHA COFFEE</option>
+          <option value="coffee">ESPRESSO COFFEE</option>
+          <option value="coffee">AMERICANO COFFEE</option>
+          <option value="coffee">MACCHIATO COFFEE</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" required />
+      </div>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+  <footer id="footer">
+    <p>© 2025 - Web Development. All rights reserved.</p>
+  </footer>
+</body>
+</html>

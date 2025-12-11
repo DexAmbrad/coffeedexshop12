@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="../asssets/styles/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav class="navbar container">
+      <div>CAFEFOLIO</div>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Banner Section -->
+    <section id="hero-banner" class="container">
+      <div class="hero-content">
+        <h1>About Us</h1>
+        <p>Welcome to Caféfolio, your go-to destination for all things coffee. Here, we celebrate the rich flavors, aromas, and stories behind every cup. Whether you're a coffee enthusiast looking to explore new blends, discover brewing tips, or simply enjoy the culture of coffee, you’ve come to the right place. Grab your favorite brew, and join us on this flavorful journey!</p>
+        <div class="btn-group">
+          <button onclick="goToNextPage()" class="primary-button">Order Now</button> 
+          <script>
+          function goToNextPage() {
+          window.location.href = "../pages/order.html";
+          }
+          </script>        
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="../asssets/image/mountain.webp" alt="Hero Banner Image">
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <p>© 2025 - Web Development. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
